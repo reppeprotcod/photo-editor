@@ -1,0 +1,18 @@
+.app {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 3fr 1fr;
+}
+
+.upload-button * {
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+}

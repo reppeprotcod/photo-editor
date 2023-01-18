@@ -1,0 +1,66 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+
+.effects-window {
+    display: grid;
+    position: absolute;
+    max-width: 90%;
+    width: 400px;
+    height: 250px;
+    border: 1px solid #666;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    grid-template-rows: 20px 1fr;
+}
+
+.title-bar {
+    user-select: none;
+    margin-right: auto;
+}
+
+.back-button {
+    display: inline-block;
+    line-height: 50%;
+    margin: 2px 8px 0px 4px;
+    font-size: 28px;
+    font-weight: 100;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+
+.back-button:active {
+    color: #888;
+}
+
+.close-button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+
+.close-button:active {
+    color: #888;
+}
+
+.effects-list-item {
+    margin-bottom: 2px;
+    background-color: #222;
+    border: 1px solid #666;
+    cursor: pointer;
+    user-select: none;
+}
+
+.effects-list-item:active {
+    background-color: #111;
+    border: 1px solid #444;
+    color: #888;
+}
